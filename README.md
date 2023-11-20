@@ -18,11 +18,13 @@ To install NvChad run the following command:
 
 ```bash
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+nvim
 ```
 
 ### nvchad-config
 
 ```bash
+rm -fr ~/.config/nvim/lua/custom
 git clone https://github.com/Imolai/nvchad-config.git ~/.config/nvim/lua/custom
 ```
 
